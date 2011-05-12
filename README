@@ -1,0 +1,5 @@
+These are two simple Ruby scripts to set the LCD displays on Dell servers to the server's current shortname. That is, everything before the period in the machine's FQDN. The 11G script is for the Dell 11th generation servers (R410,R510,R610, etc). The 10G script is for the 10th generations servers (PE1950, etc).
+
+The script is written in ruby, and you might need to change the paths depending on where ruby and ipmitool is installed.
+
+ipmitool and a working IPMI service are required. 
